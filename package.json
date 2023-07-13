@@ -1,7 +1,11 @@
 {
-  "name": "watchit_uix",
+  "name": "@JoseGonz98/Test-Packege-V1.git",
+  "repository": "https://github.com/JoseGonz98/Test-Packege-V1.git",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "version": "0.0.1",
-  "description": "Watchit UIX",
+  "description": "Test-Packege-V1.git",
   "scripts": {
     "test": "jest --verbose --runInBand --detectOpenHandles --forceExit --coverage",
     "storybook": "start-storybook -p 6006",
@@ -47,9 +51,6 @@
     "dist"
   ],
   "types": "dist/index.d.ts",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/watchit"
-  },
   "engines": {
     "node": ">=16.14.0 <17"
   },
