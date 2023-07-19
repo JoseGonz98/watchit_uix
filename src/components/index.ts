@@ -1,1 +1,1 @@
-export * from './atoms';
+export { default as Logo } from './Logo'
